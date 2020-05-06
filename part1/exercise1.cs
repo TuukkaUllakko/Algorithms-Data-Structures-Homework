@@ -18,7 +18,7 @@ namespace part1
     List<int> listOfInts = new List<int>();
     while(num > 0)
     {
-        listOfInts.Add(num - (num / 10) * 10);
+        listOfInts.Add(num % 10);
         num = num / 10;
     }
     return listOfInts.ToArray();
