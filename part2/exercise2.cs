@@ -7,7 +7,7 @@ namespace part2
         public int Calculate(int[] t)
         {
             int repetition = 1;
-            int biggestRep = 1;
+            int biggestRep = 1; //This should only grow if it's bigger than the current repetition
 
             for (int i = 1; i < t.Length; i++)
             {
