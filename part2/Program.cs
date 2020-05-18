@@ -35,10 +35,10 @@ namespace part2
             Console.WriteLine(p.Calculate(new int[] { 1, 1, 1, 1, 1 })); // 5*/
 
             //Exercise 3
-            /*Changes m = new Changes();
-            Console.WriteLine(m.Calculate(new int[] { 1, 1, 1, 2, 2 })); // 2
+            Changes m = new Changes();
+            Console.WriteLine(m.Calculate(new int[] { 1, 1, 1, 2, 2, 2, 3 })); // 2
             Console.WriteLine(m.Calculate(new int[] { 1, 2, 3, 4, 5 })); // 0
-            Console.WriteLine(m.Calculate(new int[] { 1, 1, 1, 1, 1 })); // 2*/
+            Console.WriteLine(m.Calculate(new int[] { 1, 1, 1, 1, 1 })); // 2
 
             //Exercise 4
             /*Revolutions r = new Revolutions();
@@ -47,10 +47,10 @@ namespace part2
             Console.WriteLine(r.Calculate(new int[] { 5, 4, 3, 2, 1 })); // 5*/
 
             //Exercise 5
-            Split s = new Split();
+            /*Split s = new Split();
             Console.WriteLine(s.Calculate(new int[] { 1, 2, -1, 4, 0 })); // 1
             Console.WriteLine(s.Calculate(new int[] { 1, 2, 3, 4, 5 })); // 0
-            Console.WriteLine(s.Calculate(new int[] { 0, 0, 0, 0, 0 })); // 4
+            Console.WriteLine(s.Calculate(new int[] { 0, 0, 0, 0, 0 })); // 4*/
 
         }
     }
