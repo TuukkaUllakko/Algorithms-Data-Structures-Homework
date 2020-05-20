@@ -6,7 +6,10 @@ namespace part3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Exercise 1
+            Exercise1 hello = new Exercise1();
+
+            hello.Hello(5);
         }
     }
 }
