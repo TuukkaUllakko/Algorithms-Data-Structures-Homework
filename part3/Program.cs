@@ -43,17 +43,17 @@ namespace part3
             DateTime start2 = DateTime.Now;
             s.MergeSort(sortMe);
             DateTime end2 = DateTime.Now;
-            Console.WriteLine("Time this took: " + end.Subtract(start));
+            Console.WriteLine("Time this took: " + end2.Subtract(start2));
 
             DateTime start3 = DateTime.Now;
             s.QuickSort(sortMeLarge);
             DateTime end3 = DateTime.Now;
-            Console.WriteLine("Time this took: " + end.Subtract(start));
+            Console.WriteLine("Time this took: " + end3.Subtract(start3));
 
             DateTime start4 = DateTime.Now;
             s.MergeSort(sortMeLarge);
             DateTime end4 = DateTime.Now;
-            Console.WriteLine("Time this took: " + end.Subtract(start));*/
+            Console.WriteLine("Time this took: " + end4.Subtract(start4));*/
 
             /*//Exercise 4
             BinarySearch b = new BinarySearch();
@@ -61,6 +61,15 @@ namespace part3
             Console.WriteLine(b.Find((new int[] { 0, 0 }), 0)); // true
             Console.WriteLine(b.Find((new int[] { 4, 1, 8, 5, 8, 7, 4, 2, 3 }), 2)); // true
             Console.WriteLine(b.Find((new int[] { 0 }), 0)); // true*/
+
+            //Exercise 5
+            Inversions inv = new Inversions();
+            int[] t = inv.Create(5, 2);
+            foreach (int i in t)
+            {
+                Console.Write(i + " ");  // 2 1 3 5 4
+            }
+
         }
     }
 }
