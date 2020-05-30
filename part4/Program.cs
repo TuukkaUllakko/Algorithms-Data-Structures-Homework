@@ -17,11 +17,11 @@ namespace part4
             Console.WriteLine(myLinks); // for example: 1, 3
             Console.WriteLine(myLinks.GetNode(0)); // 1
             Console.WriteLine(myLinks.GetNode(1)); // 3*/
-            //Exercise 2
+            /*//Exercise 2
             CircleGame g = new CircleGame();
             Console.WriteLine(g.Last(7)); // 7
             Console.WriteLine(g.Last(4)); // 1
-            Console.WriteLine(g.Last(123)); // 119
+            Console.WriteLine(g.Last(123)); // 119*/
 
             //Exercise 3
 

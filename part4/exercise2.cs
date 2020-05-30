@@ -6,20 +6,19 @@ namespace part4
     {
         public int Last(int n)
         { 
-            int lastNumber = 0;
-            int last = 1;
-
-            for (int i = 2; i <= n; i = i * 2)
+            if (n == 1)
             {
-                lastNumber = i;
+                return 1;
             }
-          
-            for (int i = lastNumber; i < n; i++)
+            if (n % 2 == 0)
             {
-                last = last + 2;
+                return 2 * Last(n / 2) - 1;
             }
-          
-            return last;
+            else
+            {
+                return 2 * Last(((n - 1) / 2)) + 1;
+            }
         }
+
     }
 }
