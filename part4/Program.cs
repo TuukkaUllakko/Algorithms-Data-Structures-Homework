@@ -23,7 +23,15 @@ namespace part4
             Console.WriteLine(g.Last(4)); // 1
             Console.WriteLine(g.Last(123)); // 119*/
 
-            //Exercise 3
+            /*//Exercise 3
+            SmallestDistance s = new SmallestDistance();
+            s.Add(3);
+            s.Add(8);
+            Console.WriteLine(s.Calculate()); // 5
+            s.Add(20);
+            Console.WriteLine(s.Calculate()); // 5
+            s.Add(9);
+            Console.WriteLine(s.Calculate()); // 1*/
 
             //Exercise 4
 
