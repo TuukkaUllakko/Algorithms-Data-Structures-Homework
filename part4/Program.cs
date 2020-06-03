@@ -35,6 +35,12 @@ namespace part4
             Console.WriteLine(s.Calculate()); // 1*/
 
             //Exercise 4
+            Order o = new Order();
+            int[] a = { 4, 2, 1, 3, 5 };
+            int[] b = { 2, 4, 3, 1, 5 };
+            int[] c = o.Create(a, b);
+            Console.WriteLine(String.Join(" ", c)); // 2 3 5 1 4
+
 
             //Exercise 5
             /*BinarySearchTree bs = new BinarySearchTree();
@@ -47,7 +53,7 @@ namespace part4
             bs.Add(7);
             Console.WriteLine(bs.Height()); // 3*/
 
-            BinarySearchTree bs = new BinarySearchTree();
+            /*BinarySearchTree bs = new BinarySearchTree();
             RandomNodes(bs);
             Console.WriteLine(bs.Height());
 
@@ -75,7 +81,7 @@ namespace part4
                 // Add the last one, remove from the list
                 tree.Add(nodeList[0]);
                 nodeList.RemoveAt(0);
-            }
+            }*/
         }
     }
 }
