@@ -35,14 +35,14 @@ namespace part5
             Console.WriteLine(com.Examine(2, 5)); // false
             Console.WriteLine(com.Examine(5, 6)); // true*/
 
-            Labyrinth l = new Labyrinth();
+            /*Labyrinth l = new Labyrinth();
             char[,] c =
             { {'#','#','#','#','#','#','#'},
             {'#','x','#','.','y','.','#'},
             {'#','.','#','.','#','.','#'},
             {'#','.','.','.','.','.','#'},
             {'#','#','#','#','#','#','#'} };
-            Console.WriteLine(l.Search(c)); // DDRRUUR
+            Console.WriteLine(l.Search(c)); // DDRRUUR*/
         }
     }
 }

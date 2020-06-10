@@ -5,9 +5,9 @@ namespace part5
 {
     class Labyrinth
     {
-        public string Search(char[,] laby)
+        /*public string Search(char[,] laby)
         {
             
-        }
+        }*/
     }
 }
