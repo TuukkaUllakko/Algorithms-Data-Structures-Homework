@@ -6,7 +6,42 @@ namespace part6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            /*//Exercise 1
+            
+            BellmanFord s = new BellmanFord(5);
+            s.AddRoad(1, 2, 7);
+            s.AddRoad(2, 4, 2);
+            s.AddRoad(1, 3, 6);
+            s.AddRoad(3, 4, 5);
+            s.AddRoad(4, 5, 3);
+            Console.WriteLine(s.Calculate(1, 5)); // 12*/
+
+            /*//Exercise 2
+            Dijkstra s = new Dijkstra(5);
+            s.AddRoad(1, 2, 7);
+            s.AddRoad(2, 4, 2);
+            s.AddRoad(1, 3, 6);
+            s.AddRoad(3, 4, 5);
+            s.AddRoad(4, 5, 3);
+            Console.WriteLine(s.Calculate(1, 5)); // 12*/
+
+            /*//Exercise 3
+            FloydWarshall fw = new FloydWarshall(5);
+            fw.AddRoad(1, 2, 7);
+            fw.AddRoad(2, 4, 2);
+            fw.AddRoad(1, 3, 6);
+            fw.AddRoad(3, 4, 5);
+            fw.AddRoad(4, 5, 3);
+            Console.WriteLine(fw.Calculate(1, 2)); // 12 (should be 7??)*/
+
+            //Exercise 4
+            ShortestPath s = new ShortestPath(5);
+            s.AddRoad(1, 2, 7);
+            s.AddRoad(2, 4, 2);
+            s.AddRoad(1, 3, 6);
+            s.AddRoad(3, 4, 5);
+            s.AddRoad(4, 5, 3);
+            s.Create(1, 5).ForEach(Console.Write); // 1245
         }
     }
 }
