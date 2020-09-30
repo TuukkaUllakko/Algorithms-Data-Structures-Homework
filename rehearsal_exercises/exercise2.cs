@@ -2,8 +2,11 @@ using System;
 namespace rehearsal_exercises
 
 {
-    public class Ex2
+    public class ShortenArray
     {
-        
+        int Calculate(int[] input)
+        {
+            return 1;
+        }
     }
 }
