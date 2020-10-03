@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace rehearsal_exercises
 {
@@ -6,11 +8,11 @@ namespace rehearsal_exercises
     {
         static void Main(string[] args)
         {
-            //Exercise 1
+            /*//Exercise 1
             Numbers num = new Numbers();
             Console.WriteLine(num.Steps(11)); // 5
             Console.WriteLine(num.Steps(15)); // 5
-            Console.WriteLine(num.Steps(2)); // 2
+            Console.WriteLine(num.Steps(2)); // 2*/
 
             //Exercise 2
             ShortenArray s = new ShortenArray();
